@@ -1,0 +1,39 @@
+* {
+    font-size: 15px;
+}
+
+p,
+h1,
+h3 {
+    color: #1e1d1d
+}
+
+.box,
+.box2 {
+    height: 400px;
+    width: 200px;
+    background-color: #2d8e84;
+}
+
+#box {
+    height: 600px;
+    width: 300px;
+    background-color: brown;
+}
+
+.box2 {
+    background-color: blueviolet;
+}
+
+.box2 p,
+.box2 h1 {
+    color: white;
+}
+
+.heading+p {
+    color: blue;
+}
+
+.heading2~p {
+    color: chocolate;
+}
