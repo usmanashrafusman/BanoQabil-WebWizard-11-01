@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*/ * {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+p,
+h1,
+h3 {
+    color: #1e1d1d;
+    font-family: "Poppins", sans-serif;
+}
+
+.box,
+.box2 {
+    height: 400px;
+    width: 200px;
+    background-color: #2d8e84;
+    box-shadow: 0px -1px 7px 6px #24645d;
+    border-radius: 11px;
+    padding: 5px;
+    margin: 22px;
+}
+
+#box {
+    height: 600px;
+    width: 300px;
+    background-color: brown;
+}
+
+.box2 {
+    background-color: blueviolet;
+}
+
+.box2 p,
+.box2 h1 {
+    color: white;
+}
+
+.heading+p {
+    color: blue;
+}
+
+.heading2~p {
+    color: chocolate;
+}
+
+.para {
+    text-indent: 20px;
+    text-shadow: 1px 1px 2px red;
+}
+
+
+button {
+    margin: 10px 0px;
+    padding: 9px;
+    border: 0;
+    color: #fff;
+    background: #55b8de;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #22aae0;
+}
+
+button:active {
+    background: #0675a1;
+    font-size: 17px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li.coming-soon {
+    display: none;
+}
+
+img {
+    display: block;
+}
+
+.circle {
+    background-color: #22aae0;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.border-image {
+    height: 500px;
+    width: 500px;
+    background-color: #1e1d1d;
+    border-image-slice:
+        42 42 42 42;
+    border-image-width:
+        42px 42px 42px 42px;
+    border-image-outset:
+        0px 0px 0px 0px;
+    border-image-repeat:
+        round round;
+    border-image-source:
+        url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+    border-style:
+        solid;
+}
+
+ol {
+    list-style-type: upper-roman;}
+    
